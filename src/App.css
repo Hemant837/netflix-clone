@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+/* --------------- media-queries --------------- */
+
+@media only screen and (max-width: 600px) {
+
+.Logo {
+    width: 100px;
+}
+
+.Navbar button {
+    padding: 5px 10px;
+}
+
+.Navbar .Language-switcher {
+    padding: 4px 8px;
+}
+
+.Header-container {
+    position: unset;
+    transform: none;
+    padding-top: 50px;
+}
+
+.Header-container h1 {
+    font-size: 30px;
+}
+
+.Email-signup button{
+    font-size: 12px;
+    padding: 10px 15px;
+}
+
+.Text-column, .Image-column {
+    flex-basis: 100%;
+}
+
+.Features h2 {
+    font-size: 30px;
+}
+
+.Features p {
+    font-size: 15px;
+}
+
+.Row:nth-child(2), .Row:nth-child(4) {
+    flex-direction: column-reverse;
+}
+
+.Features .Row {
+    padding: 10px 0;
+}
+
+.Footer h2 {
+    font-size: 16px;
+
+}
+
+.Faq h2 {
+    font-size: 25px;
+}
+
+.Accordion .Content {
+    font-size: 14px;
+}
+
+.Accordion li label {
+    padding: 10px;
+    font-size: 15px;
+}
+
+label::after {
+    font-size: 22px;
+}
+
+}

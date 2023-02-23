@@ -1,0 +1,42 @@
+.Footer {
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+}
+
+.Footer h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.Footer .Column {
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.Footer .Column a {
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.Footer .Row {
+    align-items: flex-start;
+    padding: 10px 0;
+}
+
+.Footer .Language-switcher {
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.Copyright-text {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

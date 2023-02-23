@@ -1,0 +1,37 @@
+.Features {
+    padding: 50px 12%;
+    font-size: 22px;
+}
+
+.Row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.Text-column {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    
+}
+
+.Image-column {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    
+}
+
+.Image-column img {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.Features h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
